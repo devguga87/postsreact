@@ -1,4 +1,5 @@
-import { PostCard } from "../PostCard"
+import { PostCard } from "../PostCard";
+import './styles.css';
 
 export const Posts = ({ posts }) => {
   return (
@@ -14,4 +15,4 @@ export const Posts = ({ posts }) => {
       )}
     </div>
   )
-}
+};
